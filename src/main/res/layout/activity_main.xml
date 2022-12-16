@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    android:paddingEnd="10sp"
+    tools:ignore="RtlSymmetry">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <TextView
+        android:id="@+id/et_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints,MissingRestraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="301dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="HardcodedText,MissingConstraints,MissingRestraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="281dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="301dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/white"
+        android:inputType="textPersonName"
+        android:text="@string/name"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints,MissingRestraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="221dp"
+        android:autofillHints="" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="400dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="133dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="2dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:text="Log In"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,MissingConstraints,MissingRestraints,TextContrastCheck"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="129dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="5dp"
+            android:background="@color/black"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="SIGN In"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,MissingConstraints,MissingRestraints"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="430dp"
+        android:layout_height="418dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/android_logo_0"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made with android ©"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="606dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="169dp"
+        android:layout_height="49dp"
+        android:minHeight="48dp"
+        android:text="Remember me"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText,MissingConstraints,UseSwitchCompatOrMaterialXml"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="340dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did you know that?"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="467dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kotlin is used to make this?"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="486dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

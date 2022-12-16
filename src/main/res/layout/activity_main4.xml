@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202225">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="100dp"
+        android:layout_height="87dp"
+        android:layout_alignParentTop="true"
+        android:background="#2574f5"
+        android:layerType="hardware"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="100dp"
+        android:layout_height="87dp"
+        android:layout_alignParentTop="true"
+        android:background="#2574f5"
+        android:layerType="hardware"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar41"
+        android:layout_width="100dp"
+        android:layout_height="87dp"
+        android:layout_alignParentTop="true"
+        android:background="#2574f5"
+        android:layerType="hardware"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="683dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="98dp"
+        android:layout_height="85dp"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="99dp"
+        android:layout_height="86dp"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="100dp"
+        android:layout_height="86dp"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="157dp"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Red"
+        android:textColor="#ff0000"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="BLUE"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        android:textColor="#0000ff"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Staright"
+        android:textSize="1.47mm"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Green"
+        android:textSize="12dp"
+        android:textColor="#00ff00"
+        tools:layout_editor_absoluteX="164dp"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Purple"
+        android:textSize="10dp"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        android:textColor="#a020f0"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Sunset"
+        android:textSize="10.75dp"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        android:textColor="#FFCDA4"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Red"
+        android:textColor="#ff0000"
+        tools:layout_editor_absoluteX="295dp"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Red"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        android:textColor="#ff0000"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Red"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        android:textColor="#ff0000"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:backgroundTintMode="add"
+        android:backgroundTint="@color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Red"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        android:textColor="#ff0000"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <Button
+        android:layout_width="82dp"
+        android:theme="@style/Theme.Material3.DynamicColors.Light"
+        android:layout_height="79dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Red"
+        android:textColor="#ff0000"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST BULB A1"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
